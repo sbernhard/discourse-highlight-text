@@ -1,0 +1,26 @@
+mark_method:
+  type: enum
+  default: regex
+  choices:
+    - word
+    - regex
+  description:
+    en: "Search by word or by a regular expression"
+
+mark_search_term:
+  type: string
+  default: "[Dd]iscourse"
+  description:
+    en: "Set the word or the regular expression. Example: '[Dd]iscourse'"
+
+mark_case_sensitive:
+  type: bool
+  default: false
+  description:
+    en: "Whether to search case sensitive"
+
+use_font_style_italic:
+  type: bool
+  default: true
+  description:
+    en: "Whether to use font-style italic"

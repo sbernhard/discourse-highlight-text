@@ -1,0 +1,9 @@
+@import "common/foundation/variables";
+
+mark {
+  color: $quaternary;
+  background: $secondary;
+  @if($use_font_style_italic =="true"){
+    font-style: italic;
+  }
+}
